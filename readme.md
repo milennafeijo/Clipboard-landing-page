@@ -1,4 +1,6 @@
-## Clipboard - Landing Page 
+## Clipboard - Landing Page (Frontend Mentor)
+
+<code>HTML ﹒CSS</code>
 
 Esse é um projeto de landing page para um gerenciador de área de transferência, desenvolvido como um desafio do **Frontend Mentor**. O objetivo foi praticar a construção de layouts modernos e garantir uma experiência de usuário fluida em diferentes dispositivos.
 
@@ -12,7 +14,7 @@ Esse é um projeto de landing page para um gerenciador de área de transferênci
 
 • Inteligência Artificial: Utilizei o Gemini CLI no VS Code para otimizar o fluxo de trabalho, focando na refatoração de seletores CSS e na organização lógica de Media Queries para um código mais limpo.
 
-Você pode ver o projeto rodando aqui. 
+<strong> <code> Você pode ver o projeto rodando <a href="https://milennafeijo.github.io/Clipboard-landing-page/" target="_blank">aqui</a>. </code> </strong>
 
 <hr>
 
