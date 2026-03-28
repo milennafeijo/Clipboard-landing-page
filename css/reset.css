@@ -1,5 +1,6 @@
-
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,16 +8,18 @@
 
 body {
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
+  text-rendering: optimizeLegibility;
   line-height: 1.5;
 }
 
-img, svg {
+img,
+svg {
   max-width: 100%;
   display: block;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
