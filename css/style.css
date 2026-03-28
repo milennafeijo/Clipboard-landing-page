@@ -35,7 +35,7 @@ h3 {
     background: url('..//images/bg-header-desktop.png') no-repeat;
     background-size: cover;
     background-position: 100%;
-    opacity: 0.5;
+    opacity: 0.4;
     z-index: -1;
 }
 
@@ -57,6 +57,7 @@ h3 {
     padding-bottom: 3rem;
     max-width: var(--mw-main);
     margin: 0 auto;
+    
 
 }
 
@@ -66,27 +67,28 @@ h3 {
 }
 
 
-
 .btn {
-    padding: 0.65rem 2rem;
+    padding: 0.80rem 2rem;
     border-radius: 1.5rem;
     font-size: 1rem;
     font-weight: 600;
     color: #fff;
     margin: 0.3rem;
+   
 
 }
 
 .btn-ios {
     background-color: var(--clr-primary-green-500);
-    box-shadow: 0px 2px 2px 1px #719d9a54;
+    box-shadow: 0px 2px 4px 2px #719d9a54;
 
 }
 
 .btn-mac {
     background-color: var(--clr-primary-blue-100);
-    box-shadow: 0px 2px 2px 1px #719d9a54;
+    box-shadow: 0px 2px 4px 2px #719d9a54;
 }
+
 
 
 
@@ -108,7 +110,7 @@ h3 {
 .section_description {
     line-height: 1.8rem;
     padding-bottom: 3rem;
-    max-width: var(--mw-main);
+    max-width: 900px;
     margin: 0 auto;
 
 }
@@ -140,8 +142,10 @@ h3 {
 }
 
 .snippets_item-title {
-    font-weight: 600;
+    font-weight: 500;
     padding-bottom: 1rem;
+    font-size: 1.20rem;
+   
 
 }
 
@@ -247,9 +251,7 @@ h3 {
 .attribution {
     padding-top: 2rem;
     text-align: center;
+    font-size: 1rem;
 
 }
 
-.attribution a:hover {
-    border-bottom: 1px solid rgb(236, 203, 223);
-}
