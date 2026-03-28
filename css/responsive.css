@@ -43,7 +43,7 @@
 @media (max-width: 768px) {
 
     .header::before {
-        background: url('./images/bg-header-mobile.png') no-repeat;
+        background: url('../images/bg-header-mobile.png') no-repeat;
         background-size: cover;
         background-position: 100%;
         opacity: 0.5;
@@ -133,7 +133,10 @@
     }
 
     .footer_content {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 1rem;
     }
 
@@ -142,7 +145,10 @@
     }
 
     .footer_nav {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         gap: 0;
 
